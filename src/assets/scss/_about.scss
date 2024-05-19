@@ -1,0 +1,22 @@
+#about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btn {
+    background: $primaryClr;
+    color: $LightClr;
+    padding: 10px 30px;
+    border-radius: 4px;
+  }
+  h5 {
+    color: $primaryClr;
+  }
+  h1 {
+    color: $dark;
+  }
+  p {
+    color: rgba($dark, 0.55);
+  }
+}

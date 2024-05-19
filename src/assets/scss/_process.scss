@@ -1,0 +1,54 @@
+#process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  h5 {
+    color: $primaryClr;
+  }
+  .box {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    .content {
+      padding: 0 5%;
+      h5 {
+        color: $dark;
+      }
+    }
+    .arrow,
+    .arrow1 {
+      position: absolute;
+      left: 40%;
+    }
+    .arrow1 {
+      bottom: 60%;
+    }
+  }
+}
+#abt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 4% 0;
+
+  .content {
+    margin-top: 5%;
+    h5 {
+      color: $primaryClr;
+    }
+    h1 {
+      color: $dark;
+    }
+    a {
+      padding: 10px 30px;
+      color: $LightClr;
+      border-radius: 5px;
+      background: $primaryClr;
+    }
+  }
+}

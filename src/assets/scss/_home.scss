@@ -1,0 +1,29 @@
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.9)),
+    url(../images/Hero1.png);
+
+  background-size: cover;
+  background-position: right right;
+  h6,
+  h1 {
+    color: $LightClr;
+  }
+
+  .fst {
+    padding: 10px 30px;
+    background: $LightClr;
+    border-radius: 2px;
+    color: $dark;
+  }
+  .cnt {
+    padding: 10px 30px;
+    background: $primaryClr;
+    border-radius: 2px;
+    color: $LightClr;
+  }
+}

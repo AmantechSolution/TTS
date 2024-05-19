@@ -1,0 +1,47 @@
+#service {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5% 0;
+  background: rgba($dark, 0.05);
+  h5 {
+    color: $primaryClr;
+  }
+  .box {
+    border: 1px solid rgba($LightClr, 0.1);
+    padding: 2%;
+    border-radius: 15px;
+    background: $LightClr;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+    .footer {
+      border-top: 1px solid $dark;
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: $primaryClr;
+      }
+      .arrow {
+        cursor: pointer;
+        font-size: 2em;
+        color: $primaryClr;
+      }
+    }
+  }
+  .View {
+    position: absolute;
+    width: max-content;
+    display: inline-block;
+    padding: 10px 30px;
+    background: $primaryClr;
+    color: $LightClr;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

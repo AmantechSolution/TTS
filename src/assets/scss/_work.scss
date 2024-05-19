@@ -1,0 +1,29 @@
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5% 0;
+  background: rgba($dark, 0.05);
+  h5 {
+    color: $primaryClr;
+  }
+  #box {
+    position: relative;
+    width: max-content;
+    padding: 2%;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    p {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+}
